@@ -85,6 +85,7 @@ const (
 	MinimumICN  = 2.0
 	MinimumLTC  = 0.1
 	MinimumMLN  = 0.1
+	MinimumOCEAN  = 5.0
 	MinimumXMR  = 0.1
 	MinimumXRP  = 30.0
 	MinimumXLM  = 300.0

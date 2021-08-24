@@ -23,6 +23,7 @@ const (
 	DASHEUR  = "DASHEUR"
 	DASHUSD  = "DASHUSD"
 	DASHXBT  = "DASHXBT"
+        DOGEEUR  = "DOGEEUR"
 	EOSETH   = "EOSETH"
 	EOSEUR   = "EOSEUR"
 	EOSUSD   = "EOSUSD"
@@ -33,11 +34,13 @@ const (
 	GNOXBT   = "GNOXBT"
 	LINKUSD   = "LINKUSD"
 	LINKXBT   = "LINKXBT"
+        OCEANEUR  = "OCEANEUR"
 	QTUMCAD  = "QTUMCAD"
 	QTUMETH  = "QTUMETH"
 	QTUMEUR  = "QTUMEUR"
 	QTUMUSD  = "QTUMUSD"
 	QTUMXBT  = "QTUMXBT"
+	TRXEUR  = "TRXEUR"
 	USDTZUSD = "USDTZUSD"
 	XBTUSDT  = "XBTUSDT"
 	XETCXETH = "XETCXETH"
@@ -124,6 +127,7 @@ type AssetPairsResponse struct {
 	DASHEUR  AssetPairInfo
 	DASHUSD  AssetPairInfo
 	DASHXBT  AssetPairInfo
+	DOGEEUR  AssetPairInfo
 	EOSETH   AssetPairInfo
 	EOSEUR   AssetPairInfo
 	EOSUSD   AssetPairInfo
@@ -134,11 +138,13 @@ type AssetPairsResponse struct {
 	GNOXBT   AssetPairInfo
 	LINKUSD  AssetPairInfo
 	LINKXBT  AssetPairInfo
+	OCEANEUR  AssetPairInfo
 	QTUMCAD  AssetPairInfo
 	QTUMETH  AssetPairInfo
 	QTUMEUR  AssetPairInfo
 	QTUMUSD  AssetPairInfo
 	QTUMXBT  AssetPairInfo
+	TRXEUR  AssetPairInfo
 	USDTZUSD AssetPairInfo
 	XETCXETH AssetPairInfo
 	XETCXXBT AssetPairInfo
@@ -232,11 +238,14 @@ type AssetsResponse struct {
 	AAVE AssetInfo
 	BCH  AssetInfo
 	DASH AssetInfo
+	DOGE AssetInfo
 	EOS  AssetInfo
 	GNO  AssetInfo
 	KFEE AssetInfo
 	LINK AssetInfo
+	OCEAN AssetInfo
 	QTUM AssetInfo
+	TRX AssetInfo
 	USDT AssetInfo
 	XDAO AssetInfo
 	XETC AssetInfo
@@ -280,8 +289,10 @@ type BalanceResponse struct {
 	AAVE float64 `json:"AAVE,string"`
 	BCH  float64 `json:"BCH,string"`
 	DASH float64 `json:"DASH,string"`
+	DOGE float64 `json:"DOGE,string"`
 	EOS  float64 `json:"EOS,string"`
 	GNO  float64 `json:"GNO,string"`
+	OCEAN  float64 `json:"OCEAN,string"`
 	QTUM float64 `json:"QTUM,string"`
 	KFEE float64 `json:"KFEE,string"`
 	LINK float64 `json:"LINK,string"`
@@ -338,6 +349,7 @@ type Fees struct {
 	DASHEUR  FeeInfo
 	DASHUSD  FeeInfo
 	DASHXBT  FeeInfo
+	DOGEEUR  FeeInfo
 	EOSETH   FeeInfo
 	EOSEUR   FeeInfo
 	EOSUSD   FeeInfo
@@ -348,11 +360,13 @@ type Fees struct {
 	GNOXBT   FeeInfo
 	LINKUSD  FeeInfo
 	LINKXBT  FeeInfo
+	OCEANEUR  FeeInfo
 	QTUMCAD  FeeInfo
 	QTUMETH  FeeInfo
 	QTUMEUR  FeeInfo
 	QTUMUSD  FeeInfo
 	QTUMXBT  FeeInfo
+	TRXEUR  FeeInfo
 	USDTZUSD FeeInfo
 	XETCXETH FeeInfo
 	XETCXXBT FeeInfo
