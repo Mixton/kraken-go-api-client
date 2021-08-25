@@ -144,7 +144,7 @@ type AssetPairsResponse struct {
 	QTUMEUR  AssetPairInfo
 	QTUMUSD  AssetPairInfo
 	QTUMXBT  AssetPairInfo
-	TRXEUR  AssetPairInfo
+	TRXEUR   AssetPairInfo
 	USDTZUSD AssetPairInfo
 	XETCXETH AssetPairInfo
 	XETCXXBT AssetPairInfo
@@ -459,7 +459,7 @@ type TickerResponse struct {
 	GNOXBT   PairTickerInfo
 	LINKUSD  PairTickerInfo
 	LINKXBT  PairTickerInfo
-        OCEANEUUR PairTickerInfo
+        OCEANEUR PairTickerInfo
 	QTUMCAD  PairTickerInfo
 	QTUMETH  PairTickerInfo
 	QTUMEUR  PairTickerInfo
