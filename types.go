@@ -448,6 +448,7 @@ type TickerResponse struct {
 	DASHEUR  PairTickerInfo
 	DASHUSD  PairTickerInfo
 	DASHXBT  PairTickerInfo
+        DOGEEUR  PairTickerInfo
 	EOSETH   PairTickerInfo
 	EOSEUR   PairTickerInfo
 	EOSUSD   PairTickerInfo
@@ -458,11 +459,13 @@ type TickerResponse struct {
 	GNOXBT   PairTickerInfo
 	LINKUSD  PairTickerInfo
 	LINKXBT  PairTickerInfo
+        OCEANEUUR PairTickerInfo
 	QTUMCAD  PairTickerInfo
 	QTUMETH  PairTickerInfo
 	QTUMEUR  PairTickerInfo
 	QTUMUSD  PairTickerInfo
 	QTUMXBT  PairTickerInfo
+        TRXEUR   PairTickerInfo
 	USDTZUSD PairTickerInfo
 	XBTUSDT  PairTickerInfo
 	XETCXETH PairTickerInfo
